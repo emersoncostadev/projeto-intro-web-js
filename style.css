@@ -1,0 +1,407 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+header{
+  height: 15vh;
+  width: 100vw;
+  display: flex ;
+  justify-content: space-between;
+  background-color: white;
+  align-items: center;
+}
+body{
+  background-color: #f6c34a;
+}
+
+main{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 3fr;
+}
+
+#logotipo{
+  height: 75px;
+  width: 349px;
+  margin: 0px 50px;
+}
+
+#barra{
+  display: flex;
+  gap: 100px;
+  margin-right: 80px;
+  list-style-type: none;
+}
+
+.link{
+  display: flex;
+  justify-content: space-around;
+  justify-items: center;
+  color: black;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+#home{
+  text-decoration: underline;
+
+}
+#cursos{
+  text-decoration: underline;
+}
+#contato{
+  text-decoration: underline;
+}
+#areaadm{
+  text-decoration: underline;
+}
+
+#parte1{
+  background-image: url(./Midia/background-hero.png);
+  background-repeat: no-repeat;
+  height: 550px;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+}
+#parte1 h1{
+  font-size: 60px;
+  
+}
+#espaco{
+  margin-left: 436px;
+}
+
+#parte1 p{
+  font-size: 25px;
+  margin: 10px 0px;
+}
+
+#botaocurso{
+  padding: 15px;
+  background-color: black;
+  border-radius: 10px;
+}
+
+#linkbotao{
+color: white;
+font-size: 18px;
+
+}
+
+#contanersobrenos{
+  background-color: black;
+  color:white;
+  height: 130vh;
+}
+
+#sobrenos{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#textosobrenos{
+  width: 700px;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+#depoimentos{
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+ 
+}
+
+.cards{
+  background-color: white;
+  color: black;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  width: 290px;
+  height: 290px;
+  justify-content: center;
+  align-items: center;
+}
+.fotos{
+  width: 100px;
+  height: 100px;
+  margin-bottom: 20px;
+}
+footer{
+  display: flex;
+  justify-content: space-around;
+  padding: 80px;
+}
+
+#mapa{
+  height: 170px;
+  width: 350px;
+}
+
+#linksfooter{
+display: flex;
+flex-direction: column;
+list-style: none;
+text-decoration: none;
+}
+#navefooter{
+  list-style: none;
+  text-decoration: none;
+  padding-top: 30px;
+  line-height: 30px;
+}
+
+.linksfooteralterar{
+  text-decoration: none;
+  color: black;
+}
+
+#redestop{
+  padding-top: 30px;
+}
+
+#arearestrita{
+
+}
+
+#arearestritatitulo{
+  padding-bottom: 30px;
+}
+#naveareaadm{
+  text-decoration: none;
+  list-style: none;
+
+}
+
+.depoimentostitulo{
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 60px;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+#cursosalinhar{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-template-rows: repeat(2,1fr);
+  gap: 1em;
+  justify-items: center;
+  justify-content: center;
+}
+
+.cardscursos{
+  background-color: white;
+  height: 300px;
+  width: 300px;
+  margin-top: 30px;
+  /* margin-left: 30px; */
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.tituloscards{
+  margin-bottom: 40px;
+  margin-top: 20px;
+}
+
+#botaocursos{
+  height: 60px;
+  width: 250px;
+  color: white;
+  background-color: black;
+  border-radius: 10px;
+  grid-column: 2/2;
+}
+
+#alinharmodulos{
+  background-color: black;
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  
+}
+
+.alinharconteudos{
+  background-color: white;
+  border-radius: 10px;
+  width: 70%;
+  height: 150px;
+  margin-top: 30px;
+  display: flex;
+  gap: 100px;
+  padding: 20px;
+}
+
+.alinhartextos{
+  display: flex;
+  flex-direction: column;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.alinhartitulosmodulos{
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+/* whatsapp */
+#logowhatsindex{
+  position: fixed;
+  left: 95%;
+  top: 90%;
+  float: right;
+  width: 3.9rem;
+}
+
+#paginaborda{
+  background-color: black;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px;
+  font-family: 'Open Sans';
+}
+
+#formulario{
+  background-color: white;
+  height: 400px;
+  width: 450px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  gap: 10px;
+  font-size: 'Open Sans';
+  margin: 0 auto;
+
+}
+#inputs{
+  height: 80px;
+}
+#input{
+  height: 80px;
+  width: 270px;
+}
+
+
+.inputs{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+
+.input{
+  width: 60%;
+  border:solid black 2px;
+}
+
+#botaoenviar{
+  width: 12%;
+  height: 150%;
+  background-color: orange;
+  border: none;
+  border-radius: 8px;
+  
+}
+
+#mainpaginaadm{
+  display: flex;
+  border: 2px solid black;
+  gap: 10px;
+}
+
+aside{
+  background-color: black;
+  height: 80vh;
+  width: 20vw;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 40px;
+}
+
+.menulateral{
+  color: white;
+  text-decoration: none;
+}
+
+#buscarInput{
+  border: none;
+  width: 15em;
+  height: 2em;
+  text-align: center;
+}
+
+#buscarBotao{
+  border: none;
+  background-color: black;
+  color: white;
+  width: 6em;
+}
+
+#resultado{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 5rem;
+}
+
+#buscarTurma{
+  width: 80vw;
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+#matricula{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.sectionmatricula{
+  margin-top: 35px;
+}
+
+#botaofazerparte2{
+  color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
